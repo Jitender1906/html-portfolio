@@ -1,0 +1,35 @@
+html{
+    background-color: #DFF5FF;
+}
+
+h1{
+    color: rgba(240, 244, 14, 0.9);
+    text-align: center;
+    background-color: #1A2130;
+    border: 4pt solid rgba(240, 244, 14, 0.9);
+}
+
+h2{
+    text-align: center;
+    font-weight: normal;
+    background-color: #83B4FF;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+hr{
+    border:2px dashed#7695FF;
+}
+
+a{
+    font-size: large;
+    color: rgb(90, 0, 207);
+}
+
+img{
+    border: 1px dashed #7695FF;
+}
+
+div{
+    margin-bottom: 60px;
+}

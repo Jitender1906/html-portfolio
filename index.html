@@ -4,45 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jitender's Portfolio</title>
+    <link rel="stylesheet" href="style.css"/>
 </head>
-
-<style>
-    html{
-        background-color: #DFF5FF;
-    }
-    h1{
-        color: rgba(240, 244, 14, 0.9);
-        text-align: center;
-        background-color: #1A2130;
-    }
-    h2{
-        text-align: center;
-        font-weight: normal;
-        background-color: #83B4FF;
-        margin-left: 10%;
-        margin-right: 10%;
-    }
-    hr{
-        border:2px dashed#7695FF;
-    }
-    a{
-        font-size: large;
-        color: rgb(90, 0, 207);
-    }
-    img{
-        border: 1px dashed #7695FF;
-    }
-</style>
 
 <body>
     <h1>Jitender's Portfolio</h1>
         <h2>I'm a Web Developer</h2>
         <hr/>
-        <h3><a href = "./public/movie-ranking.html">1. Movie Ranking Project</a></h3>
-        <img src = "./assets/images/Movies.png" height="250" width="275" alt="movie ranking project preview">
+        <div id="movie">
+            <h3><a href = "./public/movie-ranking.html">1. Movie Ranking Project</a></h3>
+            <img src = "./assets/images/Movies.png" width="300" alt="movie ranking project preview">
+        </div>
+        
+        <div id="birthday">
+            <h3><a href="./public/birthday-invite.html">2. Birthday Invite Project</a></h3>
+            <img src="./assets/images/birthday.png" width="300" alt="Birthday Invite Project Preview">
+        </div>
 
-        <h3><a href="./public/birthday-invite.html">2. Birthday Invite Project</a></h3>
-        <img src="./assets/images/birthday.png" height="300" width="275" alt="Birthday Invite Project Preview">
+        <div id="meme">
+            <h3><a href="./public/meme/meme.html">3. The Motivational Meme</a></h3>
+            <img src="./assets/images/meme/project.png" width="300" alt="The Motivational Meme Project Review">
+        </div>
         <hr/>
         <a href="./public/about.html">About Me</a>
         <a href="./public/contact.html">Contact Me</a>
